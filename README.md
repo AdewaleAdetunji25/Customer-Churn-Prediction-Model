@@ -66,9 +66,22 @@ This project predicts whether a customer will churn based on their demographic, 
 | Groceries         | 0.057      |
 
 ---
+# ✅ Conclusion & Recommendations
+Best Model: Random Forest with Hyperparameter Tuning
+
+Best ROC AUC: 0.91 (Excellent)
+
+Top Feature: TotalInteractions, suggesting user activity is key to retention.
+
+**Recommendation**:
+
+* Focus marketing efforts on users with low interaction and login frequency.
+* Personalize offers for users spending more on categories like Furniture and Groceries.
 
 ## 💾 Deployment
 
 Final model saved using `joblib`:
 ```python
-joblib.dump(rf, 'customer_churn_model.pkl')
+joblib.dump(rf, 'customer_churn_model.pkl') 
+
+
