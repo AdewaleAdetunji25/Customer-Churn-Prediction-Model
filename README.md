@@ -66,6 +66,14 @@ This project predicts whether a customer will churn based on their demographic, 
 | Groceries         | 0.057      |
 
 ---
+# 📌 Tools & Libraries Used
+* Python (Pandas, NumPy)
+* Scikit-learn (LogisticRegression, RandomForestClassifier, GridSearchCV, SMOTE)
+* Matplotlib, Seaborn (Visualization)
+* Joblib (Model saving)
+* Jupyter Notebook
+
+---
 # ✅ Conclusion & Recommendations
 Best Model: Random Forest with Hyperparameter Tuning
 
